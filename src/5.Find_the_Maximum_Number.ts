@@ -14,4 +14,10 @@ function findMaxNumber(arrayofnum: number[]) {
     return maxNumber;
 }
 
+function findMaxNumber1(arrayofnum: number[]) {
+    return arrayofnum.reduce((a, b) => a>b?a:b);
+}
+
 console.log(findMaxNumber([1, 2, 5, 4,8]));
+
+console.log(findMaxNumber1([1, 2, 5, 4,8]));
