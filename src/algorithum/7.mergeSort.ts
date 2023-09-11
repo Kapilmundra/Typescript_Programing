@@ -1,4 +1,4 @@
-function mergeSort(arr: number[]) {
+function mergeSort(arr: number[]):number[] {
     if(arr.length < 2) {
         return arr;
     }
